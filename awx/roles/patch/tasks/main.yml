@@ -1,0 +1,13 @@
+- name: Install python-devel and gcc
+  yum:
+    name:
+      - python-devel
+      - gcc
+    state: present
+- name: Upgrade pip
+  pip:
+    name: pip
+    extra_args: --upgrade
+- name: Install docker-compose
+  pip:
+    name: docker-compose, zipp

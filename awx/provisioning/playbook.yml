@@ -20,4 +20,5 @@
     - geerlingguy.docker
     - geerlingguy.pip
     - geerlingguy.nodejs
+    - patch
     - geerlingguy.awx
